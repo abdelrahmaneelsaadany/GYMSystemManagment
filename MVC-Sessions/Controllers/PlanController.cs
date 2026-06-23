@@ -6,6 +6,7 @@ namespace MVC_Sessions.Controllers
 {
     public class PlanController : Controller
     {
+        // Session 1 MVC Assignment
         // We Have Two Actions : Index ==> For All Plans , Details ==> For Spcific Plan() ** By ID
         private readonly GymDbContext _dbContext = new GymDbContext();
         public async Task<IActionResult> Index()
